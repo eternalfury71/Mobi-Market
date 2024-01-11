@@ -1,0 +1,48 @@
+.login-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login-section {
+    flex-grow: 1;
+    max-width: 720px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login_leftSide {
+    background: url('../../assets/logBg.png');
+    background-size: cover;
+    position: relative;
+}
+.login-rightSide {
+    flex: 1;
+}
+.login_leftSide img {
+    width: 200px;
+    height: 200px;  
+    z-index: 10;
+}
+.login_leftSide::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+    z-index: 1;
+}
+
+.login_leftSide h1 {
+    text-align: center;
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    z-index: 10;
+    margin-left: 60px;
+}
+
