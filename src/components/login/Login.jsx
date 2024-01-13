@@ -1,7 +1,7 @@
 import React from "react";
 import './login.css';
 import shoppingCart from "../../assets/shopping-cart 1.png";
-import Logform from "../forms/Logform";
+import Logform from "../forms/Login-form/Logform";
 
 
 const Login = () => {

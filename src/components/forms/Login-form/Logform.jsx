@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import './logform.css'
-import { EyeDisabled, EyeOpen } from "../../assets/icons/icons";
+import { EyeDisabled, EyeOpen } from "../../../assets/icons/icons";
 import {useFormik} from 'formik';
 import * as Yup from 'yup';
 import { ToastContainer, toast } from 'react-toastify';
